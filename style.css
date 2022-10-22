@@ -42,13 +42,26 @@ body {
 }
 
 .sidenav a:hover {
-  color: #080808;
+  color: #e35757;
 }
 
-.sidenav .closebtn {
+.close-button:hover {
+  color: #e35757;
+}
+
+.sidenav .close-button {
   position: absolute;
   top: 0;
   right: 25px;
   font-size: 36px;
   margin-left: 50px;
+}
+
+.menu-button {
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.menu-button:hover {
+  color: #e35757;
 }
