@@ -65,3 +65,12 @@ body {
 .menu-button:hover {
   color: #e35757;
 }
+
+.header {
+  width: 100%;
+  height: 100vh;
+  background-image: url(img/planeta\ header.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-position-y: -450px;
+}
