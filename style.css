@@ -109,6 +109,7 @@ body {
 .destino {
   width: 90%;
   display: grid;
+  grid-template-rows: auto repeat(4, 450px);
   grid-template-columns: 2;
   grid-template-rows: 5;
   margin: auto;
@@ -123,10 +124,43 @@ body {
   margin-bottom: 50px;
 }
 
+.texto-destino {
+  align-items: center;
+  margin: auto;
+}
+
 .texto-destino p {
   font-size: 1rem;
 }
 
 .texto-destino h2 {
   color:#e35757;
+}
+
+.img-venus {
+  background-image: url(img/destinos/venus.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.img-marte {
+  background-image: url(img/destinos/marte.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.img-saturno {
+  background-image: url(img/destinos/saturno.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.img-pluton {
+  background-image: url(img/destinos/pluton.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
 }
