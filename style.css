@@ -134,7 +134,7 @@ body {
 }
 
 .texto-destino h2 {
-  color:#e35757;
+  color: #e35757;
 }
 
 .img-venus {
@@ -168,8 +168,11 @@ body {
 /* TEAM*/
 
 .team {
+  width: 95%;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  margin: auto;
   margin-top: 150px;
 }
 
@@ -182,8 +185,19 @@ body {
 .team-header h2 {
   color: #e35757;
   margin-bottom: 30px;
-  }
+  font-size: 2rem;
+}
 
 .team-header p {
   margin-bottom: 10px;
+}
+
+.worker {
+  margin-top: 100px;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.worker p {
+  margin-top: 30px;
 }
