@@ -107,10 +107,12 @@ body {
 
 /*DESTINOS*/
 .destino {
-  width: 100%;
+  width: 90%;
   display: grid;
   grid-template-columns: 2;
   grid-template-rows: 5;
+  margin: auto;
+  gap: 50px;
 }
 
 .titulo-destino {
@@ -118,4 +120,13 @@ body {
   text-align: center;
   color: #e35757;
   font-size: 2rem;
+  margin-bottom: 50px;
+}
+
+.texto-destino p {
+  font-size: 1rem;
+}
+
+.texto-destino h2 {
+  color:#e35757;
 }
