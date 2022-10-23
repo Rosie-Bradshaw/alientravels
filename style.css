@@ -142,6 +142,7 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: right;
+  transform: scaleX(-1);
 }
 
 .img-marte {
@@ -156,6 +157,7 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: right;
+  transform: scaleX(-1);
 }
 
 .img-pluton {
