@@ -164,3 +164,26 @@ body {
   background-repeat: no-repeat;
   background-position: right;
 }
+
+/* TEAM*/
+
+.team {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-top: 150px;
+}
+
+.team-header {
+  grid-column: span 4;
+  text-align: center;
+  margin: 50px;
+}
+
+.team-header h2 {
+  color: #e35757;
+  margin-bottom: 30px;
+  }
+
+.team-header p {
+  margin-bottom: 10px;
+}
