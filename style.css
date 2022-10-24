@@ -272,5 +272,17 @@ body {
   cursor: pointer;
 }
 
+.footer {
+  height: 250px;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+  background: rgb(0,0,0);
+  background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(68,26,24,1) 50%, rgba(227,87,80,1) 100%);
+  margin-top: 50px;
+}
 
-
+.footer small {
+  padding-bottom: 10px;
+}
