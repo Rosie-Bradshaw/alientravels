@@ -49,6 +49,7 @@
 
     <!--DESTINOS-->
     <section class="destino" id="destino">
+        
         <h2 class="titulo-destino">Destinos</h2>
 
         <!--VENUS-->
@@ -135,26 +136,38 @@
 
     <!--FORM-->
     <section class="form" id="informacion">
-        <h2>YOU’RE JUST ONE STEP AWAY FROM INFINITY</h2>
+
+        <header class="titulo-form">
+            <h2>YOU’RE JUST ONE STEP AWAY FROM <span>INFINITY</span></h2>
+        </header> 
         
-        <div class="flexbox">
-            <div class="flexbox-text">
+        <section class="flexbox-container">
+
+            <header class="flexbox-text">
                 <p>Leave us your <span>contact details</span> and we will send you more information</p>
-            </div>
+            </header>
         
-            <div class="flexbox-form">
-                <form>
-                    <label for="name">Name</label>
-                    <input type="text" id="name">
-        
-                    <label for="phone">Phone</label>
-                    <input type="text" id="phone">
-        
-                    <label for="email">Email</label>
-                    <input type="text" id="email">
-                </form>
-            </div>
-        </div>
+            
+            <form class="flexbox-form">
+                <label for="name">Name</label>
+                <input type="text" id="name">
+    
+                <label for="phone">Phone</label>
+                <input type="tel" id="phone">
+    
+                <label for="email">Email</label>
+                <input type="email" id="email">
+                
+                <div class="">
+                    <label for="privacy">ACCEPT OUR PRIVACY POLICY</label>
+                    <input type="checkbox" id="privacy">
+                    <input type="submit" id="submit">
+                </div>
+
+            </form>
+
+        </section>
+
     </section>
 
     <!-- FOOTER -->
