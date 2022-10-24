@@ -37,7 +37,8 @@
     <!-- HEADER -->
     <header class="header" id="header">
         <h1>ALIEN TRAVELS</h1>
-        <h2>Created for humans · Powered by aliens</h2>
+        <h2 class="desktop-subtitle">Created for humans · Powered by aliens</h2>
+        <h2 class="mobile-subtitle">Created for humans<br>Powered by aliens</h2>
         <p class="parrafo">La agencia de viajes Alien Travels es la primera agencia interplanetaria diseñada para humanos, creada por
         extraterrestres.</p>
     </header>
@@ -51,8 +52,8 @@
         <h2 class="titulo-destino">Destinos</h2>
 
         <!--VENUS-->
-        <div class="img-venus"></div>
-        <div class="texto-destino">
+        <div class="img-venus" id="img-venus"></div>
+        <div class="texto-destino" id="texto-venus">
             <h2>Venus</h2>
             <p>De los planetas del Sistema Solar, Venus tiene una particularidad que no podrás dejar de pasar en esta nueva temporada.</p>
             <p>Todos los planetas giran de este a oeste, excepto el segundo más cercano al Sol.</p>
@@ -61,7 +62,7 @@
         </div>
         
         <!--MARTE-->
-        <div class="texto-destino">
+        <div class="texto-destino" id="texto-marte">
             <h2>Marte</h2>
             <p>Páramos desérticos, volcanes, casquetes polares y la montaña más alta del todo nuestro sistema solar, todo bañado en un
             rojo color oxidado.</p>
@@ -69,12 +70,12 @@
             humano se ha enfrentado: Albergó vida en algún momento de su longeva historia? Solo hay una forma de averiguarlo, ven a
             Marte, ven con Alien Travels.</p>
         </div>
-        <div class="img-marte"></div>
+        <div class="img-marte" id="img-marte"></div>
     
 
         <!--SATURNO-->
-        <div class="img-saturno"></div>
-        <div class="texto-destino">
+        <div class="img-saturno" id="img-saturno"></div>
+        <div class="texto-destino" id="texto-saturno">
             <h2>Saturno</h2>
             <p>Saturno es el sexto planeta del sistema solar contando desde el Sol, el segundo en tamaño y masa. Su nombre proviene del dios romano Saturno.</p>
             <p>Forma parte de los denominados planetas exteriores o gaseosos. La principal característica turística de Saturno son sus anillos compuestos de roca y hielo.</p>
@@ -83,13 +84,13 @@
 
 
          <!--PLUTON-->
-         <div class="texto-destino">
+         <div class="texto-destino" id="texto-pluton">
             <h2>Plutón</h2>
             <p>Plutón es el último planeta del sistema solar. Por su pequeño tamaño, su categoría como planeta ha generado mucha controversia entre los expertos. Finalmente, los nativos plutonianos han ganado el debate y se ha llegado al consenso de llamarlo Planeta Enano.</p>
             <p>Puede que Plutón sea pequeño, pero que esto no os engañe: ¡es un gran destino para toda la familia!</p>            
             <P>Si bien Plutón va a ser nuestro campamento base, también es posible hacer exursiones a sus planetas hermanos: Haumea y Makemake.</p>
         </div>
-        <div class="img-pluton"></div>
+        <div class="img-pluton" id="img-pluton"></div>
 
     </section>
 
@@ -152,7 +153,7 @@
                 <input type="email" id="email">
                 
                 <div class="privacy-checkbox">
-                    <label for="privacy">ACCEPT OUR PRIVACY POLICY</label>
+                    <small for="privacy">ACCEPT OUR PRIVACY POLICY</small>
                     <input type="checkbox" id="privacy">
                 </div>
                 
