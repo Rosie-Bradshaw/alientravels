@@ -131,6 +131,7 @@ body {
 
 .texto-destino p {
   font-size: 1rem;
+  margin-top: 0.5rem;
 }
 
 .texto-destino h2 {
@@ -267,6 +268,9 @@ body {
   background-color:#e35757;
   margin: auto;
   padding: 10px 20px;
+  border: 0;
+  cursor: pointer;
 }
+
 
 
