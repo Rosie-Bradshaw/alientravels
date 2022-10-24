@@ -208,6 +208,8 @@ body {
 }
 
 .worker img {
+  width: 210px;
+  height: 210px;
   filter: grayscale(1);
   cursor: pointer;
 }
